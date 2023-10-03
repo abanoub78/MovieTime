@@ -200,3 +200,21 @@ body {
 .sec a{
   color: white;
 }
+.container .footer{
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  right: 40%;
+  width: fit-content;
+}
+@media (max-width: 767px){
+  .container .footer{
+    font-size: 9px;
+  }
+  .landing .container .mid .pic {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
